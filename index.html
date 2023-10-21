@@ -6,14 +6,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="gesture, PhD, amazing, sociolinguistics, built-in">
-    <meta name="author" content="Holly Keily">
+    <meta name="description" content="blessy boby personal website">
+    <meta name="author" content="Blessy Boby">
 
     <title>Blessy Boby</title>
 	<!--link rel="shortcut icon" href="icon.ico"-->
+    <link rel = "icon" href = "D:\UB Sem3\PersonalWebsite\PersonalWebsite\img\blessyfav.ico" type = "image/x-icon"> 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
-
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -29,51 +31,41 @@
 
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" style="color: #f2e8fc; background-color: #0d0316;">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse" >
                     <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <h2 class="wtf"><i class="bi bi-layout-wtf"></i></h2>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Blessy Boby</a>
+                <a class="navbar-brand page-scroll" href="#page-top"><img height="50px" width="50px" src="img/logo.jpeg""></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
+            <div class="collapse navbar-collapse navbar-ex1-collapse" style="float: right;">
+                <ul class="nav navbar-nav blessynav" style="color:#8A2BE2">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
 					<li>
-                        <a class="page-scroll" href="#education">Education</a>
+                        <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#work">Work</a>
+                        <a class="page-scroll" href="#work">Experience</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#projects">Projects</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#skills">Skills</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#interests">Interests</a>
-                    </li>
-                    <li>
-						<a class="page-scroll" href="#resume">Resume</a>
-					</li>
-                    <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
-					
-						
+                    <li>
+                        <button id= "openResume" type="button" class="btn btn-dark resumeBtn">Resume</button>
+					</li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -84,120 +76,144 @@
     <!-- Intro Section -->
     <section id="intro" class="intro-section">
         <div class="container">
-		
             <div class="row">
                 <div class="col-lg-12">
-                    <img height="250px" width="250px" src="img/mypic.jpg" style="display:block; margin-left: auto; margin-right: auto; padding: 0 .5em .5em 0; border-radius: 50%;">
-                    <h1 style="color:#777">Hello! I am Blessy Boby</h1>
-                    <p style="color:#777 ; font-size:larger;">I'm a Computer Science graduate student with a wealth of industry experience spanning 3 years, dedicated to crafting libraries and applications for the Windows platform. 
-                        My expertise shines in real-time Front-End web and desktop application development using Python and C#. Currently, I'm on a journey to acquire my Master's degree, where I'm focusing on the fascinating world of data analysis.
-                        Beyond my academic and professional endeavors, I have a passion for photography, an adventurous spirit that leads me to explore new places, and a love for immersing myself in the pages of captivating books. <br>Welcome to my personal website!</p>
-					<!--<img style="float:center; height:300px ;width:300px" src="img/headimg.jpg"><br><br>
-					&nbsp;
-                    <a class="btn btn-default page-scroll" href="#cv">CV</a>
-					<p style="color:white"> If you click the button, the page will automatically scroll down to the CV section</p>-->
+                    <h4 style="color:#f2e8fc ; font-size: 20px;font-family: Calibri;">Hi, my name is</h4>
+                    <h2 style="color:#F6F2FA; font-size: clamp(40px, 8vw, 80px); font-weight: 600;line-height: 1.1;">Blessy Boby.</h2>
+                    <h3 style="color:#e0c6f7; font-size: clamp(40px, 8vw, 80px);font-weight: 600;line-height: 1.1;">I build web and desktop applications.</h3>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <p style="color:#f2e8fc ; font-size: 20px;font-family: Calibri;">I'm a Computer Science and Engineering graduate student with over 3 years of experience as Software Engineer. I am looking for full-time opportunities to <span style="color: #8A2BE2;">build, learn</span> and <span style="color: #8A2BE2;">grow.</span></p>
                 </div>
             </div>
         </div>
     </section>
 
-
-	
-
-        <!-- Education Section -->
-        <section id="education" class="education-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1>Education</h1>
-                        <br>
-                        <div style="float: left;">
-                            <div class="col-lg-12 col-sm-12">
-                                <div style="text-align: left;">
-                                    <div class="col-lg-2 col-sm-2" style="float: left;">
-                                        <img height="50px" width="100px" src="img/UB.png" style="display:block; margin-left: auto; margin-right: auto;">
-                                    </div>
-                                    <div class="col-lg-10 col-sm-10">
-                                        <h4 style="align-items: left;"><strong>University at Buffalo, The State University of New York</strong></h4>
-                                        <p style="align-items: left;"><i>Master of Science in Computer Science and Engineering</i></p>
-                                        <p>August 2022 - Expected December, 2023</p>
-                                        <p>Relevant Coursework</p>
-                                        <ul>
-                                            <li>Introduction to Machine Learning</li>
-                                            <li>Algorithms Analysis and Design</li>
-                                            <li>Computer Security</li>
-                                            <li>Computer Architecture</li>
-                                            <li>Data Models and Query Languages</li>
-                                            <li>Blockchain</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <br>
-                            <div class="col-lg-12 col-sm-12">
-                                <div style="text-align: left;">
-                                    <div class="col-lg-2 col-sm-2" style="float: left;">
-                                        <img height="60px" width="60px" src="img/Cet.jpg" style="display:block; margin-left: auto; margin-right: auto;">
-                                    </div>
-                                    <div class="col-lg-10 col-sm-10">
-                                    <h4 style="align-items: left;"><strong>College of Engineering Trivandrum, APJ Abdul Kalam Technological University</strong></h4>
-                                    <p style="align-items: left;"><i>Bachelor of Technology in Computer Science and Engineering</i></p>
-                                    <p>August, 2015 - July, 2019</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                <h1 style="color:#e0c6f7; font-weight: 600;line-height: 1.1;">About Me</h1>
+                <br/>
+                <br/>
+                <div class="col-lg-7">
+                    <p>
+                    My interest in web development sparked back in 2016 when I was an undergrad and came across a small IEEE session organized by seniors. 
+                    </p>
+                    <p>
+                    Fast-forward to today, and I've had the privilege to engage in a diverse range of projects for <a class="slow-underline" href="https://www.feiginlab.org/">a cancer research lab</a> , <a class="slow-underline" href="https://www.bosch-softwaretechnologies.com/en/">a prominent automotive corporation</a>, and <a class="slow-underline" href="https://www.vssc.gov.in/">a national space agency</a>.
+                    </p>
+                    <p>
+                    I'm currently in my final semester of Masters program at University at Buffalo and seeking full-time job opportunities across the United States.
+                    </p>
+                    <p>
+                    Here are a few technologies I've been working with recently:
+                    </p>
+                    <ul class="skillsList">
+                        <li>React</li>
+                        <li>ATAC Seq Analysis</li>
+                        <li>R-Bioconductor</li>
+                        <li>MongoDB</li>
+                    </ul>
+                    <br/>
+                    <p>
+                    When I go AFK, I capture moments, take long walks, travel, read books, and watch anime; lots and lots of it! (One Piece is my all-time favorite)
+                    </p>
+                </div>
+                <div class="col-lg-5 col-sm-5">
+                    <img class="personalImg" src="img/mypic2.jpg">
+                </div>
                 </div>
             </div>
-            </div>
-        </section>
-
+                </div>
+        </div>
+    </section>
+	
             <!-- Work Section -->
     <section id="work" class="work-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Work</h1>
-					<br>
-                    <div style="float: left;">
-                        <div class="col-lg-12 col-sm-12">
-                            <div style="text-align: left;">
-                                <div class="col-lg-3 col-sm-3" style="float: left;">
-                                    <img height="40px" width="100px" src="img/roswell_logo_2018_rgb.jpg" style="display:block; margin-left: auto; margin-right: auto;">
-                                </div>
-                                <div class="col-lg-9 col-sm-9">
-                                    <h4 style="align-items: left;"><strong>Roswell Park Comprehensive Cancer Center</strong></h4>
-                                    <p style="align-items: left;"><i>Research Apprentice</i></p>
-                                    <p>June, 2023 - Present</p>
-                                </div>
+                    <h1 style="color:#e0c6f7; font-weight: 600;line-height: 1.1;">My Industry Experience</h1>
+                    <br/>
+                    <br/>
+                    <div>
+                        <div class="col-lg-12 col-sm-12 workFont">
+                            <div class="col-lg-3 col-sm-3">
+                                <h4>June, 2023 - Present</h4>
+                            </div>
+                            <div class="col-lg-9 col-sm-9">
+                                <h4>Research Apprentice <span class="workspan">@ <a class="slow-underline" href="https://www.feiginlab.org/">FeiginLab, Roswell Park Comprehensive Cancer Center</a></span></h4>
+                                <p class="workDesc">I analyze differential gene expression from bulk and single-cell RNA-sequencing and ATAC-sequencing data, using R and Python. My work involves integrating gene expression data with clinical outcomes, 
+                                    with a specific focus on discovering potential druggable targets in pancreatic cancer.</p>
+                                <ul class="workSkills">
+                                    <li><div class="flexing"><span class="skill">R-Bioconductor</span></div></li>
+                                    <li><div class="flexing"><span class="skill">RNA-Seq</span></div></li>
+                                    <li><div class="flexing"><span class="skill">ATAC-Seq</span></div></li>
+                                    <li><div class="flexing"><span class="skill">RStudio</span></div></li>
+                                </ul>
                             </div>
                         </div>
-                        <br>
-                        <div class="col-lg-12 col-sm-12">
-                            <div style="text-align: left;">
-                                <div class="col-lg-3 col-sm-3" style="float: left;">
-                                    <img height="35px" width="100px" src="img/Bosch_logo.png" style="display:block; margin-left: auto; margin-right: auto;">
-                                </div>
-                                <div class="col-lg-9 col-sm-9" style="float: right;">
-                                <h4 style="align-items: left;"><strong>Bosch Global Software Technologies PVT LTD</strong></h4>
-                                <p style="align-items: left;"><i>Software Engineer</i></p>
-                                <p>July, 2020 - July, 2022</p>
-                                <p style="align-items: left;"><i>Associate Software Engineer</i></p>
-                                <p>August, 2019 - June, 2020</p>
-                                </div>
+                        
+                        <br/>
+                        <br/>
+                        <div class="col-lg-12 col-sm-12 workFont">
+                            <div class="col-lg-3 col-sm-3">
+                                <h4>August, 2019 - July, 2022</h4>
+                            </div>
+                            <div class="col-lg-9 col-sm-9">
+                                <h4>Software Engineer <span class="workspan">@ <a class="slow-underline" href="https://www.bosch-softwaretechnologies.com/en/">Bosch Global Software Technologies PVT LTD</a></span></h4>
+                                <p class="workDesc">By conceptualizing and executing a custom library, I improved C# tool tracking, enhancing both online and offline monitoring capabilities. Additionally, I developed specialized enterprise tools in Python and C# that accelerated calibration analysis by 50%. 
+                                    My leadership extended to a Bosch Worldwide website redesign, elevating the user experience for 80% of its users through Open API Specification. I ensured code quality by creating White Box Units and Integration tests in C#. Moreover, I provided crucial support for Java and C# tools by offering internal Compilation and Encryption assistance. 
+                                    These initiatives were conducted within the Microsoft .Net Development Environment, using Agile and Scrum frameworks, and promoting collaboration through Git and Sourcetree/Bitbucket.</p>
+                                <ul class="workSkills">
+                                    <li><div class="flexing"><span class="skill">C#</span></div></li>
+                                    <li><div class="flexing"><span class="skill">Python</span></div></li>
+                                    <li><div class="flexing"><span class="skill">HTML</span></div></li>
+                                    <li><div class="flexing"><span class="skill">CSS</span></div></li>
+                                    <li><div class="flexing"><span class="skill">JavaScript</span></div></li>
+                                    <li><div class="flexing"><span class="skill">Bootstrap</span></div></li>
+                                    <li><div class="flexing"><span class="skill">jQuery</span></div></li>
+                                    <li><div class="flexing"><span class="skill">WPF</span></div></li>
+                                    <li><div class="flexing"><span class="skill">ASP.Net</span></div></li>
+                                    <li><div class="flexing"><span class="skill">MVC</span></div></li>
+                                    <li><div class="flexing"><span class="skill">Web Forms</span></div></li>
+                                    <li><div class="flexing"><span class="skill">NUnit</span></div></li>
+                                    <li><div class="flexing"><span class="skill">MySQL</span></div></li>
+                                    <li><div class="flexing"><span class="skill">Git</span></div></li>
+                                    <li><div class="flexing"><span class="skill">Postman</span></div></li>
+                                    <li><div class="flexing"><span class="skill">Swagger</span></div></li>
+                                    <li><div class="flexing"><span class="skill">Jenkins</span></div></li>
+                                    <li><div class="flexing"><span class="skill">Groovy</span></div></li>
+                                    <li><div class="flexing"><span class="skill">SCRUM</span></div></li>
+                                    <li><div class="flexing"><span class="skill">Jira</span></div></li>
+                                    <li><div class="flexing"><span class="skill">Sourcetree</span></div></li>
+                                    <li><div class="flexing"><span class="skill">Bitbucket</span></div></li>
+                                    <li><div class="flexing"><span class="skill">Confluence</span></div></li>
+                                    <li><div class="flexing"><span class="skill">PC Guard</span></div></li>
+                                    <li><div class="flexing"><span class="skill">Inno</span></div></li>
+                                    <li><div class="flexing"><span class="skill">Bash</span></div></li>
+                                </ul>
                             </div>
                         </div>
-                        <br>
-                        <div class="col-lg-12 col-sm-12">
-                            <div style="text-align: left;">
-                                <div class="col-lg-3 col-sm-3" style="float: left;">
-                                    <img height="60px" width="60px" src="img/Indian_Space_Research_Organisation_Logo.svg.png" style="display:block; margin-left: auto; margin-right: auto;">
-                                </div>
-                                <div class="col-lg-9 col-sm-9">
-                                <h4 style="align-items: left;"><strong>Vikram Sarabhai Space Centre, ISRO</strong></h4>
-                                <p style="align-items: left;"><i>Project Intern</i></p>
-                                <p>August, 2018 - June, 2019</p>
-                                </div>
+                        <br/>
+                        <br/>
+                        <div class="col-lg-12 col-sm-12 workFont">
+                            <div class="col-lg-3 col-sm-3">
+                                <h4>August, 2018 - June, 2019</h4>
+                            </div>
+                            <div class="col-lg-9 col-sm-9">
+                                <h4>Project Intern <span class="workspan">@ <a class="slow-underline" href="https://www.vssc.gov.in/">VSSC, Indian Space Research Organisation</a></span></h4>
+                                <p class="workDesc">I developed a robust distributed framework using the MPI (Message Passing Interface) to tackle intricate computational problems, ensuring efficient load distribution in parallel computing. I implemented centralized, peer-to-peer, and greedy communication techniques in MPI C++ on partitioned graph files.
+                                     The results favored the greedy approach, demonstrating its superiority by avoiding issues like deadlock and starvation, making it the optimal choice.</p>
+                                <ul class="workSkills">
+                                    <li><div class="flexing"><span class="skill">Linux</span></div></li>
+                                    <li><div class="flexing"><span class="skill">LaTex</span></div></li>
+                                    <li><div class="flexing"><span class="skill">METIS</span></div></li>
+                                    <li><div class="flexing"><span class="skill">MPI</span></div></li>
+                                    
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -205,112 +221,129 @@
         </div>
     </section>
 
-	    <!-- Projects Section -->
-        <section id="projects" class="projects-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1>Projects</h1>
-                        <br>
-                        <div class="col-lg-10 col-sm-10" style="float: left;">
-                            <h4 style="align-items: left; text-align: left;"><strong>Online Dictionary</strong></h4>
-                            <p style="align-items: left; text-align: left;"><i>React, Node.js, IBM Cloud, MongoDB</i></p>
-                            <ul>
-                                <li style="text-align: left;">Developing an Online Dictionary website with React and Node.js, hosted on IBM Cloud, to offer word meanings with pronunciation. This project involves the implementation of word parsing, Solr indexing, and MongoDB storage, alongside the creation of components for "Word of the Day" and "Trending Words" based on popular searches.</li>
-                            </ul>
-                            <br>
-                            <h4 style="align-items: left; text-align: left;"><strong>8-bit Microprocessor</strong></h4>
-                            <p style="align-items: left; text-align: left;"><i>Verilog, Xilinx Vivado, Basys 3 FPGA</i></p>
-                            <ul>
-                                <li style="text-align: left;">Designed, implemented, and simulated an 8-bit microprocessor, which integrated critical components including a program counter, instruction memory, register file, ALU, data memory, multiplexer, and control unit. Additionally, conducted extensive functional verification utilizing the Basys 3 FPGA board.</li>
-                            </ul>
-                            <br>
-                            <h4 style="align-items: left; text-align: left;"><strong>Bank of Buffalo</strong></h4>
-                            <p style="align-items: left; text-align: left;"><i>pgAdmin, ElephantSQL, HTML5, Bootstrap, Express, jQuery</i></p>
-                            <ul>
-                                <li style="text-align: left;">Developed a robust database management system and user-friendly web application to efficiently store, manage, and retrieve data related to branches, users, user accounts, and transactions, enhancing customer and staff interaction.</li>
-                            </ul>
-                            <br>
-                            <h4 style="align-items: left; text-align: left;"><strong>Pokemon In A Block</strong></h4>
-                            <p style="align-items: left; text-align: left;"><i>Solidity, Truffle, Ganache, Goerli, Infura, OpenZeppelin, Web3, JavaScript</i></p>
-                            <ul>
-                                <li style="text-align: left;">Conceptualized, tokenized, and deployed Pokemon cards into a decentralized ecosystem, fostering secure, transparent, and tamper-proof card trading while boosting trust and reliability within the community.</li>
-                            </ul>
-                        </div>
+             <!-- Projects Section -->
+             <section id="projects" class="projects-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1 style="color:#e0c6f7; font-weight: 600;line-height: 1.1;">My Recent Projects</h1>
+                            <br/>
+                            <br/>
+                            <div>
+                                <div class="col-lg-12 col-sm-12 workFont">
+                                    <div class="col-lg-1 col-sm-1">
+                                        <h1><i class="bi bi-book"></i></h1>
+                                    </div>
+                                    <div class="col-lg-11 col-sm-11">
+                                        <h3 class="projectHeading">Online Dictionary</h3>
+                                        <p>Developing an Online Dictionary website with React and Node.js, hosted on IBM Cloud, to offer word meanings with pronunciation. This project involves the implementation of word parsing, Solr indexing, and MongoDB storage, alongside the creation of components for "Word of the Day" and "Trending Words" based on popular searches.</p>
+                                        <ul class="workSkills">
+                                            <li><div class="flexing"><span class="skill">React</span></div></li>
+                                            <li><div class="flexing"><span class="skill">Material-UI</span></div></li>
+                                            <li><div class="flexing"><span class="skill">Node.js</span></div></li>
+                                            <li><div class="flexing"><span class="skill">MongoDB</span></div></li>
+                                            <li><div class="flexing"><span class="skill">Kubernetes</span></div></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <br/>
+                                <br/>
+                                <div class="col-lg-12 col-sm-12 workFont">
+                                    <div class="col-lg-1 col-sm-1">
+                                        <h1><i class="bi bi-cpu"></i></h1>
+                                    </div>
+                                    <div class="col-lg-11 col-sm-11">
+                                        <h3 class="projectHeading">8-bit Microprocessor</h3>
+                                        <p>Designed, implemented, and simulated an 8-bit microprocessor, which integrated critical components including a program counter, instruction memory, register file, ALU, data memory, multiplexer, and control unit. Additionally, conducted extensive functional verification utilizing the Basys 3 FPGA board.</p>
+                                        
+                                        <ul class="workSkills">
+                                            <li><div class="flexing"><span class="skill">Verilog</span></div></li>
+                                            <li><div class="flexing"><span class="skill">Xilinx Vivado</span></div></li>
+                                            <li><div class="flexing"><span class="skill">Basys 3 FPGA</span></div></li>
+                                            <li><div class="flexing"><span class="skill">Computer Architecture</span></div></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <br/>
+                                <br/>
+                                <div class="col-lg-12 col-sm-12 workFont">
+                                    <div class="col-lg-1 col-sm-3=1">
+                                        <h1><i class="bi bi-bank"></i></h1>
+                                    </div>
+                                    <div class="col-lg-11 col-sm-11">
+                                        <h3 class="projectHeading">Bank of Buffalo</h3>
+                                        <p>Developed a robust database management system and user-friendly web application to efficiently store, manage, and retrieve data related to branches, users, user accounts, and transactions, enhancing customer and staff interaction.</p>
+                                        <ul class="workSkills">
+                                            <li><div class="flexing"><span class="skill">pgAdmin</span></div></li>
+                                            <li><div class="flexing"><span class="skill">ElephantSQL</span></div></li>
+                                            <li><div class="flexing"><span class="skill">HTML5</span></div></li>
+                                            <li><div class="flexing"><span class="skill">Bootstrap</span></div></li>
+                                            <li><div class="flexing"><span class="skill">Express</span></div></li>
+                                            <li><div class="flexing"><span class="skill">jQuery</span></div></li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                                <br/>
+                                <br/>
+                                <div class="col-lg-12 col-sm-12 workFont">
+                                    <div class="col-lg-1 col-sm-3=1">
+                                        <h1><i class="bi bi-currency-bitcoin"></i></i></h1>
+                                    </div>
+                                    <div class="col-lg-11 col-sm-11">
+                                        <h3 class="projectHeading">Pokemon In A Block</h3>
+                                        <p>Conceptualized, tokenized, and deployed Pokemon cards into a decentralized ecosystem, fostering secure, transparent, and tamper-proof card trading while boosting trust and reliability within the community.</p>
+                                        <ul class="workSkills">
+                                            <li><div class="flexing"><span class="skill">Solidity</span></div></li>
+                                            <li><div class="flexing"><span class="skill">Truffle</span></div></li>
+                                            <li><div class="flexing"><span class="skill">Ganache</span></div></li>
+                                            <li><div class="flexing"><span class="skill">Goerli</span></div></li>
+                                            <li><div class="flexing"><span class="skill">Infura</span></div></li>
+                                            <li><div class="flexing"><span class="skill">OpenZeppelin</span></div></li>
+                                            <li><div class="flexing"><span class="skill">Web3</span></div></li>
+                                            <li><div class="flexing"><span class="skill">JavaScript</span></div></li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
                 </div>
-            </div>
-        </section>
-
-          <!-- Skills Section -->
-          <section id="skills" class="skills-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1>Skills</h1>
-                        <br>
-                        <div class="col-lg-10 col-sm-10" style="float: left;">
-                            <h4 style="align-items: left; text-align: left;"><strong>Programming Languages</strong></h4>
-                            <ul>
-                                <li style="text-align: left;">Python (NumPy, Pandas, SciKit-Learn), R (Bioconductor), C#, Solidity, Verilog, C, Bash, Groovy</li>
-                            </ul>
-                            <br>
-                            <h4 style="align-items: left; text-align: left;"><strong>Web and Desktop Application Development</strong></h4>
-                            <ul>
-                                <li style="text-align: left;">HTML, CSS, Bootstrap, JavaScript, jQuery, Windows Presentation Foundation (WPF), ASP.NET MVC, NUnit, PostgreSQL</li>
-                            </ul>
-                            <br>
-                            <h4 style="align-items: left; text-align: left;"><strong>Software and Tools</strong></h4>
-                             <ul>
-                                <li style="text-align: left;">Linux, Microsoft Office, Remix, Jupyter, PyCharm, Postman, Swagger, Jenkins, Bitbucket, Jira, Confluence, PC Guard, Inno, LaTex, Visual Studio, Git, Sourcetree, MATLAB, METIS, RStudio</li>
-                            </ul>
-                            <br>
-                            <h4 style="align-items: left; text-align: left;"><strong>CERTIFICATION</strong></h4>
-                            <p style="align-items: left; text-align: left;">RBEI-NIPUN: Data Certified,<i>Simplilearn</i></p>
-                            <ul>
-                                <li style="text-align: left;">Statistics, Data visualizations, Predictive analytics, Hadoop Big Data framework, PySpark, and Amazon Web Services (AWS)</li>
-                            </ul>
-                        </div>
-                </div>
-            </div>
-        </section>
-
-    <!-- Interests Section -->
-    <section id="interests" class="interests-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Interests</h1>
-					<p>LEARN STUFF</p>
-					<br>
-					<p><a href="www.google.com" target="new">This is a hotlink</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, odio vitae sagittis porttitor, sapien lacus interdum arcu, quis volutpat nulla sem id erat. Curabitur lobortis magna eget cursus malesuada. Cras eu bibendum magna, a lacinia ex. Pellentesque id convallis eros. Donec vitae tincidunt ligula. Fusce ut maximus eros. Nam sapien metus, pharetra et ipsum et, pharetra sodales augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ullamcorper nisi ut facilisis semper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut non porttitor nibh. In suscipit ligula non augue auctor, id commodo dolor vulputate. Aenean pharetra erat vel ex posuere, vitae suscipit elit maximus. Nam ullamcorper diam quam, at facilisis nisi vehicula eget. Maecenas volutpat augue nec commodo porta.</p>
-
-					<p>Phasellus iaculis, nisl id tristique varius, eros erat auctor tellus, a eleifend turpis dui sed ex. Aenean nec molestie ligula. Sed pulvinar dignissim leo vel cursus. Sed efficitur est condimentum leo ornare ultrices vitae id risus. Donec pulvinar, odio sodales eleifend sagittis, magna augue porttitor augue, ac pellentesque erat eros aliquam mauris. Vestibulum lacus risus, accumsan id volutpat eu, hendrerit sit amet mi. Morbi justo libero, gravida vitae orci at, posuere condimentum tellus. Phasellus sodales dui in odio varius vulputate. Praesent aliquam, quam quis posuere fermentum, ligula velit porttitor nisi, in aliquet arcu ipsum a augue. Pellentesque faucibus ipsum at ante ornare pharetra. Donec ut laoreet ipsum. Curabitur eget porttitor arcu. Cras sed commodo urna, quis aliquam augue. Suspendisse vestibulum nisl eget vestibulum feugiat. </p>
-            </div>
-        </div>
-    </section>
+            </section>
+	  
 
         <!-- Resume Section -->
-        <section id="resume" class="resume-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1>Resume</h1>
-                        <br>
-                        <iframe src="Resume_BlessyBoby.pdf" height="600px" width="100%"></iframe>
-                </div>
-            </div>
-        </section>
-	
+        <script>
+            // Add a click event listener to the button
+            document.getElementById("openResume").addEventListener("click", function() {
+                // Replace 'your_pdf_file.pdf' with the path to your PDF file
+                var pdfUrl = 'Blessy_Boby_Resume.pdf';
+                
+                // Open the PDF in a new tab
+                window.open(pdfUrl, '_blank');
+            });
+        </script>
+
+
+
+       
     <!-- Contact Section -->
     <section id="contact" class="contact-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Contact me!</h1>
-                    <a href="https://www.linkedin.com/in/blessy-boby/">LinkedIn</a>
-                    <a href="blessybo@buffalo.edu">Email</a>
-                    <p>+1 716 617 9892</p>
-		                </div>
+                    <h1 style="color:#e0c6f7; font-weight: 600;line-height: 1.1;">Contact me!</h1>
+                    <br/>
+                    <br/>
+                    <p>I am actively seeking opportunities within the United States, with a versatile skill set encompassing roles such as Software Developer, .Net Developer, Web Developer, Frontend Developer, and Full Stack Developer.</p>
+                    <p>Please do not hesitate to reach out to me if you believe I would be an excellent fit for your team!</p>
+                    <div class="contactClass col-lg-12">
+                        <div><h1><a href=mailto:"blessybo@buffalo.edu"><i class="bi bi-envelope-at"></i></a></h1></div>
+                        <div><h1><a href="https://www.linkedin.com/in/blessy-boby/"><i class="bi bi-linkedin"></i></a></h1></div>
+                        <div><h1><a href="https://github.com/BlessyBoby"><i class="bi bi-github"></i></a></h1><h1></div>
+                        <div><h1><a href="https://www.instagram.com/blessy_boby/"><i class="bi bi-instagram"></i></a></h1></div>
+                    </div>
+		        </div>
             </div>
         </div>
     </section>
