@@ -1093,7 +1093,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: white;
+  /* color: white; */
   background-color: black;
 }
 input,
@@ -3041,14 +3041,14 @@ select[multiple].input-lg {
 .btn.focus,
 .btn:active.focus,
 .btn.active.focus {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
+  /* outline: thin dotted; */
+  /* outline: 5px auto -webkit-focus-ring-color; */
   outline-offset: -2px;
 }
 .btn:hover,
 .btn:focus,
 .btn.focus {
-  color: #333;
+  /* color: #333; */
   text-decoration: none;
 }
 .btn:active,
@@ -4876,7 +4876,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 a.label:hover,
 a.label:focus {
-  color: #fff;
+  /* color: #fff; */
   text-decoration: none;
   cursor: pointer;
 }
@@ -5368,7 +5368,7 @@ a.list-group-item-success.active:hover,
 button.list-group-item-success.active:hover,
 a.list-group-item-success.active:focus,
 button.list-group-item-success.active:focus {
-  color: #fff;
+  /* color: #fff; */
   background-color: #3c763d;
   border-color: #3c763d;
 }
@@ -5397,7 +5397,7 @@ a.list-group-item-info.active:hover,
 button.list-group-item-info.active:hover,
 a.list-group-item-info.active:focus,
 button.list-group-item-info.active:focus {
-  color: #fff;
+  /* color: #fff; */
   background-color: #31708f;
   border-color: #31708f;
 }
@@ -5426,7 +5426,7 @@ a.list-group-item-warning.active:hover,
 button.list-group-item-warning.active:hover,
 a.list-group-item-warning.active:focus,
 button.list-group-item-warning.active:focus {
-  color: #fff;
+  /* color: #fff; */
   background-color: #8a6d3b;
   border-color: #8a6d3b;
 }
