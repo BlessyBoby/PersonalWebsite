@@ -199,8 +199,8 @@ a.slow-underline:hover:after {
 @media (max-width: 768px) {
     .personalImg {
         float:left; 
-        height:270px ;
-        width:337px;
+        height:267px ; 
+        width:494px; 
     }
     .navbar-brand {
         float: left;
